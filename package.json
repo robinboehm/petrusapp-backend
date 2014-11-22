@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npm install db-migrate -g",
+    "prestart": "db-migrate up"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,7 @@
     "body-parser": "^1.2.2",
     "cookie-parser": "^1.1.0",
     "express": "^3.5.1",
-    "hiredis": "^0.1.17",
     "pg": "^3.6.2",
-    "q": "^1.0.1",
-    "redis": "^0.12.1"
+    "q": "^1.0.1"
   }
 }

@@ -6,13 +6,7 @@
     "host": "localhost",
     "database": "petrusapp"
 },
-  "prod": {
-    "driver": "pg",
-    "user": "robinboehm",
-    "password": "postgres",
-    "host": "localhost",
-    "database": "petrusapp"
-},
+  "prod": {"ENV": "DATABASE_URL"},
 
 
   "other": "postgres://robinboehm:postgres@localhost/petrusapp"
