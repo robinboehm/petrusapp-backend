@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npm install db-migrate -g",
-    "prestart": "db-migrate up"
+    "preinstall": "npm install db-migrate -g;db-migrate up"
   },
   "repository": {
     "type": "git",
